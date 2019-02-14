@@ -6,7 +6,7 @@ Arduino IDE (https://www.arduino.cc/en/main/software)
 Wireshark (sudo apt-get install wireshark)(Ubuntu/Debian based) 
 Python
 
-GR-GSM(This requires an SDR and some time to compile)
+##GR-GSM(This requires an SDR and some time to compile)
 ```
 sudo apt-get update && \
 sudo apt-get install -y \
@@ -26,7 +26,7 @@ sudo apt-get install -y \
     gr-osmosdr \
     libosmocore-dev   
 ```
-Download GR-gsm and compile with (https://github.com/ptrkrysik/gr-gsm)
+##Download GR-gsm and compile with (https://github.com/ptrkrysik/gr-gsm)
 ```
 git clone https://git.osmocom.org/gr-gsm
 cd gr-gsm
@@ -38,7 +38,7 @@ make
 sudo make install
 sudo ldconfig
 ```
-#Wifi Deauthentication using ESP8266
+##Wifi Deauthentication using ESP8266
 (I will provide 4 Nodemcu's you can play around which are pre configured ) 
 First we need to flash the NodeMcu using this tutorial (easier to follow the link)
 https://github.com/spacehuhn/esp8266_deauther/wiki/Installation
