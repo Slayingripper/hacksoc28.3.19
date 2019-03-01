@@ -198,7 +198,7 @@ Once that is done, you just open http://http://vtcsec/secret/ once more and you 
 
 We are logged in as the www-data User.
 
-# Using Metasploit to upload a malicious WordPress Plugin
+### Using Metasploit to upload a malicious WordPress Plugin
 
 The Metasploit Admin Shell Upload module sounds promising. Firing up Metasploit and configuring the module first.
 ```
@@ -219,7 +219,7 @@ exploit
 And boom! We got a Meterpreter shell
 
 
-# Using unix privilege escalation check to analyze the target
+### Using unix privilege escalation check to analyze the target
 
 
 
