@@ -49,5 +49,35 @@ First we need to flash the NodeMcu using this tutorial (easier to follow the lin
 https://github.com/spacehuhn/esp8266_deauther/wiki/Installation
 
 
+## Pentest part 
+This pen test will cover tools like
+
+Nmap
+ZAP
+metasploit
+
+You are more than welcome to download the Vm and run this on your machine 
+https://www.vulnhub.com/entry/basic-pentesting-1,216/
+
+
+Firstly open up Kali linux or any linux machine 
+
+first do an
+```
+ifconfig
+```
+
+find your IP address run an nmap scan on the network 
+
+```
+nmap -sn <your ip>
+```
+
+lets run an Nmap scan on the network 
+
+```
+nmap -p- -sS -Pn -n -vvv -oA nmap-host-ports 192.168.1.5
+```
+
 
 
